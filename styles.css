@@ -1,1 +1,40 @@
-/* your code */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+thead tr {
+  background-color: #1f5a8c;
+  color: white;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 18px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
